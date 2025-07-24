@@ -1,0 +1,21 @@
+:root {
+    /* Purple Scale */
+    --color-purple-50: #faf5ff;
+    --color-purple-100: #f4e7ff;
+    --color-purple-200: #ead4ff;
+    --color-purple-300: #dab1ff;
+    --color-purple-400: #c480ff;
+    --color-purple-500: #ad4ffd;
+    --color-purple-600: #982df0;
+    --color-purple-700: #831cd4;
+    --color-purple-800: #7a1fbd;
+    --color-purple-900: #5b188b;
+    --color-purple-950: #3e0467;
+
+    /* Brand Accent Colors */
+    --color-tropical-indigo: #a294f9;
+    --color-tropical-indigo-2: #9c8cf9;
+    --color-majorelle-blue: #693ceb;
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
