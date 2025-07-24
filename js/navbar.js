@@ -9,3 +9,12 @@ window.addEventListener('scroll', function () {
         nav.classList.remove('scrolled');
     }
 });
+
+
+lottie.loadAnimation({
+    container: document.getElementById('lottie-hero'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'work.json' // replace with your Lottie JSON path
+});

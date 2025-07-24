@@ -1,0 +1,16 @@
+@keyframes glowPulse {
+    0% {
+        text-shadow: 0 0 2px rgba(156, 140, 249, 0.3),
+            0 0 2px rgba(156, 140, 249, 0.2);
+    }
+
+    50% {
+        text-shadow: 0 0 8px rgba(156, 140, 249, 0.5),
+            0 0 16px rgba(156, 140, 249, 0.4);
+    }
+
+    100% {
+        text-shadow: 0 0 2px rgba(156, 140, 249, 0.3),
+            0 0 2px rgba(156, 140, 249, 0.2);
+    }
+}
