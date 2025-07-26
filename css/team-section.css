@@ -36,7 +36,7 @@
 
 .team__card:hover {
     transform: translateY(-6px);
-    box-shadow: 10px 10px 0 var(--color-purple-600);
+    box-shadow: 12px 12px 0 var(--color-purple-600);
 }
 
 .team__image {
