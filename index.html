@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/services.css" />
     <link rel="stylesheet" href="css/contactus.css" />
+    <link rel="stylesheet" href="css/team-section.css" />
     <script src="js/navbar.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://unpkg.com/lottie-web@5.12.0/build/player/lottie.min.js"></script>
-
 </head>
 
 <body>
@@ -221,6 +221,74 @@
         </div>
     </section>
 
+    <section id="team" class="team-section">
+        <h2 class="team__heading">Meet the Team</h2>
+        <div class="team__grid">
+
+
+            <div class="team__card">
+                <img src="assets/team/nimish.png" alt="Nimish Sawant" class="team__image" />
+                <h3 class="team__name">Nimish Sawant</h3>
+                <p class="team__role">Founder & Content Head</p>
+                <p class="team__bio">
+                    Media professional with 3+ years in photography, videography, and podcasts. Founder of NSm Media,
+                    creating strategic content for restaurants, gyms, and healthcare brands.
+                </p>
+                <div class="team__socials">
+                    <a href="https://www.instagram.com/nimishsawantt" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nimish-sawant-8a10b71ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="team__card">
+                <img src="assets/team/shravani.png" alt="Shravani Sawant" class="team__image" />
+                <h3 class="team__name">Shravani Sawant</h3>
+                <p class="team__role">PR Strategist</p>
+                <p class="team__bio">
+                    Seasoned PR Head with 6+ years driving brand growth through strategic communications, positioning,
+                    and media relations, crafting narratives and campaigns that build trust and expand audience reach.
+                </p>
+                <div class="team__socials">
+                    <a href="https://www.instagram.com/shrav_1819_?igsh=MXdwM2U2MHNlanFnMg==" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="team__card">
+                <img src="assets/team/sarvesh.png" alt="Sarvesh Patil" class="team__image" />
+                <h3 class="team__name">Sarvesh Patil</h3>
+                <p class="team__role">Developer & Advisor</p>
+                <p class="team__bio">I’m a Full Stack Developer with 4+ years of experience building scalable startup
+                    products across frontend, backend, and tools, driving impact from idea to execution.</p>
+                <div class="team__socials">
+                    <a href="https://www.instagram.com/the_skeptic_indian" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sarvesh-patil-137053184?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="team__card">
+                <img src="assets/team/kadambari.png" alt="Kadambari Rokade" class="team__image" />
+                <h3 class="team__name">Kadambari Rokade</h3>
+                <p class="team__role">Marketing Head</p>
+                <p class="team__bio">
+                    Marketing Head with 6+ years of experience driving growth through strategic planning, brand
+                    development, and campaign execution, leveraging data and creative storytelling to build customer
+                    engagement from concept to launch.
+                </p>
+                <div class="team__socials">
+                    <a href="https://www.linkedin.com/in/kadambari-rokade-b033a821b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
     <section id="contactus" class="contactus">
         <div class="card">
             <span class="card__title">Let's Connect</span>
@@ -228,6 +296,9 @@
                 We'd love to hear from you! Whether it's a project idea or just a hello — drop us a message.
             </p>
             <form class="card__form" action="https://formsubmit.co/nishantjadhav.cs@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/" />
+                <input type="hidden" name="_subject" value="New Contact Message from Website" />
                 <input required type="text" name="name" placeholder="Your Name" />
                 <input required type="email" name="email" placeholder="Your Email" />
                 <textarea required name="message" placeholder="Your Message"></textarea>
@@ -235,10 +306,6 @@
             </form>
         </div>
     </section>
-
-
-
-
 
 </body>
 
